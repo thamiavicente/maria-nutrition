@@ -2,7 +2,7 @@ var importButton = document.querySelector("#import-patient");
 importButton.addEventListener("click", function(){
     var xhr = new XMLHttpRequest(); //busca dados através de uma requisição hhttp
 
-    fetch("https://raw.githubusercontent.com/thamiavicente/nutricionista-aparecida/master/api/patients.json") //puxa a api
+    fetch("https://thamiavicente.github.io/nutricionista-aparecida/api/patients.json") //puxa a api
     .then(function(answer){ //entao...
         return answer.json() //retorne o conteudo e transforme em json
     })
