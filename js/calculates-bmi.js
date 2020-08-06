@@ -12,18 +12,18 @@ for (var i = 0; i < patients.length; i++){
 
     var tdBmi = patient.querySelector(".info-bmi") // busca a td de bmi
 
-    var validWeight = validatesHeight(height);
-    var validHeight = validatesWeight(weight);
+    var validHeight = validatesHeight(height);
+    var validWeight = validatesWeight(weight);
 
     if(!validWeight) {
         validWeight = false;
-        tdBmi.textContent = "weight inválido";
+        tdBmi.textContent = "invalid weight";
         patient.classList.add("patient-invalid");
     }
     
     if(!validHeight) {
         validHeight = false;
-        tdBmi.textContent = "height inválida";
+        tdBmi.textContent = "invalid height";
         patient.classList.add("patient-invalidd");
     }
     
@@ -41,7 +41,7 @@ function calculatesBmi (weight, height) {
 }
 
 function validatesWeight (weight){
-    if (weight > 0 && weight < 800){
+    if (weight > 0 && weight < 300){
         return true;
     }else{
         return false;

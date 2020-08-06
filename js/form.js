@@ -22,8 +22,8 @@ addButton.addEventListener("click", function(event){
     errorMessage.innerHTML = "";
 });
 
-function addPatientInTable(paciente){
-    var patientTr = setUpTr(paciente);
+function addPatientInTable(patient){
+    var patientTr = setUpTr(patient);
     var table = document.querySelector("#table-patients");
     table.appendChild(patientTr);
 }
@@ -48,7 +48,7 @@ function setUpTd (data, className){
     return td;
 }
 
-function setUpTr (paciente){
+function setUpTr (patient){
     //Cria a TR
     var patientTr = document.createElement("tr");
     patientTr.classList.add("patient");
