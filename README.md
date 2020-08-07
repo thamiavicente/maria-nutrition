@@ -8,7 +8,7 @@
 
 ## :clipboard: Description
 ### What is it?
-<p>This is the result of my work while tooking a jQuery course, at Alura - Cursos Online.</p>
+<p>This is the result of my work while tooking a Javascript course, at Alura - Cursos Online.</p>
 
 ### What has it?
 - Search field
