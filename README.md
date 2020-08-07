@@ -5,11 +5,10 @@
 ![Badge](https://img.shields.io/static/v1?label=Language&message=HTML_5&color=red&style=flat)
 ![Badge](https://img.shields.io/static/v1?label=Language&message=CSS_3&color=orange&style=flat)
 ![Badge](https://img.shields.io/static/v1?label=Language&message=JavaScript&color=yellow&style=flat&)
-![Badge](https://img.shields.io/static/v1?label=Language&message=jQuery&color=3383FF&style=flat)
 
 ## :clipboard: Description
 ### What is it?
-<p>This is the result of my work while doing a jQuery course.</p>
+<p>This is the result of my work while tooking a jQuery course, at Alura - Cursos Online.</p>
 
 ### What has it?
 - Search field
@@ -20,24 +19,12 @@
 - [Deploy](https://thamiavicente.github.io/maria-nutrition/)
 - [Code](https://github.com/thamiavicente/maria-nutrition)
 
-## :warning: Prerequisites
-- [Node.js](https://nodejs.org/en/)
-
 ## :arrow_forward: How to run the code
-<p>1. Install the lib</p>
+<p>1. Clone the repostitore</p>
 
 ```
-npm install jquery
+git clone https://github.com/thamiavicente/maria-nutrition
 ```
-
-<p> 2. Clone the repostitore</p>
-
-```
-git clone https://github.com/thamiavicente/catbike
-```
-
-## :books: Installed libs
-- [jQuery](https://jquery.com/)
 
 ## :ballot_box_with_check: Open Tasks
 
